@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "da71bDOIzd/FIhWi1ALtoPAWvvwhu248sLiovMYY+fPPP5R1zg/3hkDaQG71r5UXnYef1WC5G+i1m235VwQfBw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\BhanuRekha\\Downloads\\21stMortgageInterviewCodingTests\\WPFTest\\21stMortgageInterviewApplication\\21stMortgageInterviewApplication\\21stMortgageInterviewApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BhanuRekha\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
+    "C:\\Users\\BhanuRekha\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\BhanuRekha\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\BhanuRekha\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

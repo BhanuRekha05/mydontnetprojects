@@ -1,0 +1,48 @@
+﻿<Window x:Class="_21stMortgageInterviewApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_21stMortgageInterviewApplication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <Label Content="User Input" Height="30" Margin="17,10,307,244" />
+        <TextBox Margin="147,10,29,290"  Name="input"  />
+        <Button Content="Find Largest Value" Height="50" HorizontalAlignment="Left" RenderTransformOrigin="0.495,0.982" Margin="10,197,0,37" Click="Button_Click" >
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Find sum of Odd Numbers" HorizontalAlignment="Left" RenderTransformOrigin="1.495,2.982" Margin="135,263,0,103" Width="169" Click="Button_Click_1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Find sum of Even Numbers" Height="50" HorizontalAlignment="Center" RenderTransformOrigin="2.495,3.982" Margin="0,197,0,37" Click="Button_Click_2" >
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label Content="result" Height="30" Margin="34,368,0,36" HorizontalAlignment="Left" Width="65" />
+        <TextBox Margin="219,357,118,36" Name="result"  />
+
+    </Grid>
+
+</Window>

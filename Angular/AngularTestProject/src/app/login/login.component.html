@@ -1,0 +1,19 @@
+<div class="login">
+    <h2 class="login-header">Log in</h2>
+     <form [formGroup] = 'loginForm' class='login-container' (submit) = "login()"> 
+        <input type = "userName" placeholder="UserName" formControlName="userName" (focus)="clearmsgs();" />
+        <small class="errormsg"
+        *ngIf="loginForm.controls.userName.touched && loginForm.controls.userName.errors?.required">
+          Please enter UserName
+      </small>
+        <input type="password" placeholder="Password" formControlName="password" (focus)="clearmsgs();"> 
+        <small  class="errormsg"
+        *ngIf="loginForm.controls.password.touched && loginForm.controls.password.errors?.required">
+          Please enter Password
+      </small>
+    <p><input type="submit" value="Log In"></p>
+    <div class="successmsg">{{msgSucess}}</div>
+    <div class="errormsg">{{ msgError}}</div>
+      
+    </form> 
+</div>
